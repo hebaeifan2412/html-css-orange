@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+<link rel="stylesheet" href="e1.css">
+   
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <form action="">
+      
+<table>
+  <tr>
+    <td class="end"><label>User Id: </label></td>
+    <td>    <input type="text" size="10" maxlength="20" required/></td>
+  </tr>
+  <tr>
+    <td  class="end"><label>Password: </label></td>
+    <td>    <input type="password" size="10" maxlength="20"/></td>
+  </tr>
+  <tr>
+    <td  class="end"> <label>Name:</label></td>
+    <td>   <input type="text" size="40" maxlength="50"/></td>
+  </tr>
+  <tr>
+    <td  class="end"> <label>Address: </label></td>
+    <td><input type="text" size="40" maxlength="50"/></td>
+  </tr>
+  <tr>
+    <td class="end"> <label for="country">country:</label></td>
+    <td> <select id="country" name="country">
+      <option value="" selected disabled>(Please choose a country)</option>
+      <option value="KSA">KSA</option>
+      <option value="JOR">JOR</option>
+      <option value="UAE">UAE</option>
+      <option value="UK">UK</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td class="end"><label >ZIP Code: </label></td>
+    <td><input type="text" size="20" maxlength="50"/></td>
+  </tr>
+  <tr>
+    <td class="end"> <label >Email : </label></td>
+    <td><input type="text" size="40" maxlength="50"/></td>
+  </tr>
+  <tr>
+    <td class="end"> <label>Sex : </label></td>
+    <td><input type="radio" value="male" name="sex" /> male  <input type="radio" value="female" name="sex" />female </td>
+  </tr>
+  <tr>
+    <td class="end"><label>Language: </label></td>
+    <td><input type="checkbox"  id="english" name="Language" value="english"/>
+      <label>English</label>
+      <input type="checkbox"  id="Nonenglish" name="Language" value="nonenglish"/>
+      <label>Non English</label></td>
+  </tr>
+  <tr>
+    <td ><label style="float: inline-start;">About: </label></td>
+    <td> <input type="text"style=" width:300px ; height: 150px";> </td>
+  </tr>
+</table>
+<input type="submit" value="submit" style="margin-left: 12rem; margin-top: 1rem;">
+    </form>
+</body>
+</html>

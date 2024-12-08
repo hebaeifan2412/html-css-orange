@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+span{
+    background-color: orange;
+}
+div{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+#red{
+    color: red;
+    border: 3px dotted red;
+
+}
