@@ -1,0 +1,14 @@
+.box{
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+.green{
+    background-color: green;
+    margin-top: 2rem;
+}
+.yellow{
+background-color: yellow;
+}

@@ -1,0 +1,38 @@
+ 
+ .navbar {
+  
+    background-color: green;
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+.nav{
+    background-color: green;
+    display: inline;
+   margin-left: 1rem;
+   margin-right: 1rem;
+    font-size: 2rem;
+}
+.drop  {
+    background-color: green;
+    font-size: 1rem;
+    list-style-type: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 13rem;
+
+
+}
+a:hover, a:active {
+    color: yellow;
+   
+  }
+  #dropl{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
