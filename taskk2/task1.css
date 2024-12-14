@@ -1,0 +1,11 @@
+div {
+    position: fixed;
+    border: 1px solid black;
+    top: 3%;
+    right: 3%;
+    background-image: url(image.png);
+    background-repeat: repeat-y;
+    background-size: 150px;
+    height: 700px;
+    width: 120px;
+}

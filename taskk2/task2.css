@@ -1,0 +1,18 @@
+*{
+    background-color: #e863cb;
+}
+.box {
+    width:250px;
+    height: 150px;
+background-color: #fff;
+overflow: hidden;
+margin: 1rem;
+}
+.scrollbox{
+    clear: both;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    
+    height: 70PX;
+    overflow-y: scroll;
+}

@@ -1,0 +1,36 @@
+*{
+    background-color: #f0f3c2;
+    box-sizing: border-box;
+
+}
+section{
+    margin:  0 100px 0 100px;
+   
+}
+.head{
+    background-color:#d5dc42 ;
+     padding-bottom:  1rem;
+    
+
+}   
+div,  ul, li{
+    background-color: rgb(183, 179, 179);
+}
+.column {
+    float: left;
+    font-size: 30px;
+   
+
+}
+
+.right {
+    width: 25%;
+   
+    
+  }
+  
+  .left {
+   
+    width: 75%;
+   
+  }
