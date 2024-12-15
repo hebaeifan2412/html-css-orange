@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid 4</title>
+    <style>
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: repeat(60,1fr);
+}
+.container>*{
+    background-color: rgb(94, 148, 228);
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+.box1{
+    grid-column: span 60;
+}
+.box2{
+    grid-column: span 30;
+}
+.box3{
+    grid-column: span 30;
+}
+.box4{
+    grid-column: span 20;
+}
+.box5{
+    grid-column: span 20;
+}
+.box6{
+    grid-column: span 20;
+}
+.box7{
+    grid-column: span 15;
+}
+.box8{
+    grid-column: span 15;
+}
+.box9{
+    grid-column: span 15;
+}
+.box10{
+    grid-column: span 15;
+}
+.box11{
+    grid-column: span 12;
+}
+.box12{
+    grid-column: span 12;
+}
+.box13{
+    grid-column: span 12;
+}
+.box14{
+    grid-column: span 12;
+}
+.box15{
+    grid-column: span 12;
+}
+.box16{
+    grid-column: span 10;
+}
+.box17{
+    grid-column: span 10;
+}
+.box18{
+    grid-column: span 10;
+}
+.box19{
+    grid-column: span 10;
+}
+.box20{
+    grid-column: span 10;
+}
+.box21{
+    grid-column: span 10;
+}
+.box22{
+    grid-column: span 60;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1">60 GS is starter kit for the CSS Grid </div>
+    <div class="box2">1</div>
+    <div class="box3">2</div>
+    <div class="box4">1</div>
+    <div class="box5">2</div>
+    <div class="box6">3</div>
+    <div class="box7">1</div>
+    <div class="box8">2</div>
+    <div class="box9">3</div>
+    <div class="box10">5</div>
+    <div class="box11">1</div>
+    <div class="box12">2</div>
+    <div class="box13">3</div>
+    <div class="box14">4</div>
+    <div class="box15">5</div>
+    <div class="box16">1</div>
+    <div class="box17">2</div>
+    <div class="box18">3</div>
+    <div class="box19">4</div>
+    <div class="box20">5</div>
+    <div class="box21">6</div>
+    <div class="box22"><p>Why 60?</p> <p>Because the number 60 is dividable by 2,3,4,5 and 6.</p></div>
+</div>
+</body>
+</html>

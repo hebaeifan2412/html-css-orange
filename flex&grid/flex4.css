@@ -24,18 +24,19 @@
 span{
     color: red;
 }
-.container>div{
-    padding: 20px 40px;
+.container div:nth-child(n+1){
+    padding: 20px 20px;
+    
 }
 a{
     color: rgba(197, 197, 187, 0.403);
     text-decoration: none;
-    margin-left: 10px;
+   
 }
 .padi{
     padding-right:  10px;
 }
- div>div :hover{
+ .container div:nth-child(n+1):hover{
 background-color:#10162f;
 color: whitesmoke;
  }
