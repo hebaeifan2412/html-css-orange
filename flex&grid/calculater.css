@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.full{
+    width: 100%;
+}
 body{
     background-color: #FFF5D7;
 }
@@ -13,13 +16,13 @@ gap : 15px;
 display: grid;
 height: 50vh;
 width: 50vh;
-align-items: center;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: repeat(5,1fr);
 
 }
 .container>*{
     background-color:#f0abbf;
+    border-radius: 10px;
     text-align: center;
     align-content: center; 
     box-shadow: 0 5px 5px gray;
