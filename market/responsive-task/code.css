@@ -1,0 +1,156 @@
+body{
+    font-family:  sans-serif;
+}
+.dropdown{
+    border: 1px solid white;
+    border-radius: 5px; 
+    margin-right: 5px;
+}
+.active{
+    color: white;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.fs{
+    font-size: 14px;
+}
+.navcolor{
+    background-color: cadetblue;
+}
+.home{
+    display: flex;
+    background-color: rgb(20, 30, 71);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.bgmusic{
+    display: flex;
+    flex-direction: column;
+    background-image: url(Music.png);
+    background-size: cover;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 65vh;
+}
+.main{ 
+    margin-top: 30px;
+    display: flex;
+    text-shadow: inset 0 0 5px rgba(0, 0.8, 0.5, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main>*{
+    padding: 10px 0;
+}
+.group-btn{
+    margin: 5px 0;
+}
+.btn1{
+    background-color: #fff;
+    padding: 10px 20px;
+    color: black;
+    font-size: 15px;
+   font-weight: 400;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.btn2{
+    background: none;
+    color: #fff;
+    padding: 10px;
+   font-size: 15px;
+   font-weight: 400;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.section2{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.section2 >*{
+    text-align: center;
+    font-size: 13px;
+}
+.section2 a{
+text-decoration: none;
+color: black;
+font-size:60px;
+font-weight: 500;
+
+}
+.AI{
+background-image: url(bgdarkblue.png);
+background-repeat: repeat;
+background-color: rgb(20, 30, 71);
+color: white;
+display: flex;
+flex-direction: row;
+gap: 60px;
+padding: 50px 200px;
+align-items: center;
+}
+.about{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.about>*{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border-radius: 10px;
+}
+.img1{
+    
+    background-image: url(3.png);
+    background-size: cover;
+    height: auto;;
+
+
+}
+.c{
+    position: relative;
+    margin-top: 100px;
+    background-color: cadetblue;
+    opacity: 0.5;
+}
+
+.list{
+   
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: 600;
+padding: 10px;
+background-color: cadetblue;
+}
+ a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.project-header{
+    margin: 20px 0;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.project{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+

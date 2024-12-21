@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header1{
+            max-width: 100%;
+            background-color: rgb(209, 207, 207);
+            padding: 10px 100px;
+            color: rgb(106, 106, 106);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+         }
+        .headerr{
+         display: flex;
+          flex-direction: row;
+         
+        }
+        .socialicon >*{
+        padding: 0 5px;
+        }
+        .headerr p{
+            padding: 3px 10px;
+        }
+        .padding{
+            padding: 0 10px;
+        }
+        .border{
+            border-right: 2px solid gray ;
+            padding-right: 15px;
+        }
+       .navbar li:hover{
+        color: green;
+       }
+        
+        .section1{
+         
+          display: flex;
+         flex-direction: column;
+      
+        }
+       
+        .navbar{
+            margin: 30px 115px 30px 450px ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-weight: bolder;
+
+        }
+        .navbar ul{
+           
+            list-style-type: none;
+            display: flex;
+           gap: 75px;
+           cursor: pointer;
+
+
+           
+            
+        }
+.notfication p{
+    display: inline;
+}
+
+
+.allcateg
+{
+    margin: 10px 100px;
+
+    display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+
+}
+.dropdown{
+    border: 1px solid gray;
+   
+}
+.dropdown-btn{
+    padding: 10px 10px;
+    font-weight: bolder;
+background-color: green;
+color: white;
+text-align: center;
+
+}
+.dropdown ul{
+    list-style-type: none;
+    padding: 10px 50px;
+}
+.dropdown-item  {
+  color: #333; 
+  text-decoration: none;
+  padding: 10px 0;
+  
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="header1">
+ <div class="headerr">
+   <p style=" border-right: 2px solid gray ;"><i class="fa-solid fa-envelope"></i> hello@colorlib.com</p> 
+   <p>Free Shipping for all Order of $99</p>
+ </div>
+     <div class="headerr"> 
+        <div class="socialicon border">
+           <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+           <a href=""><i class="fa-brands fa-twitter"></i></a>
+           <a href=""><i class="fa-brands fa-twitter"></i></a> 
+           <a href=""><i class="fa-brands fa-pinterest-p"></i></a> 
+
+        </div>
+        <div class="language border padding">
+            <form>
+              <label for="lang"></label>
+              <select id="lang" name="lang">
+                <option value="en">English</option>
+                <option value="ar">Arabic</option>
+              </select>
+            </form>
+        </div>
+        <div class="padding">
+            <p><i class="fa-solid fa-user" style="color: black; padding-right: 5px;"></i> Login</p>
+        </div>
+       </div>
+</div>
+
+<div class="section1">
+
+ <div class="navbar">
+ <div>
+        <ul>
+            <li style="color: green;">HOME</li>
+            <li>SHOP</li>
+            <li>PAGE</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+        <div class="notfication">
+            <div><i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>item: <b>$150.00</b></p></div>
+        </div>
+    
+ </div> 
+
+<!-- all categories -->
+<div class="allcateg">
+    <div class="dropdown">
+  <div class="dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i style="padding-right: 5px;" class="fa-solid fa-bars"></i> Dropdown button
+  </div>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Fresh Meat</a></li>
+    <li><a class="dropdown-item" href="#">Vegetables</a></li>
+    <li><a class="dropdown-item" href="#">Fruit & Nut Gifts</a></li>
+    <li><a class="dropdown-item" href="#">Fresh Berries</a></li>
+    <li><a class="dropdown-item" href="#">Ocean Foods </a></li>
+    <li><a class="dropdown-item" href="#">Butter & Eggs</a></li>
+    <li><a class="dropdown-item" href="#">Fastfood</a></li>
+    <li><a class="dropdown-item" href="#">Fresh Onion</a></li>
+    <li><a class="dropdown-item" href="#">Papayaya & Crisps</a></li>
+    <li><a class="dropdown-item" href="#">Oatmeal</a></li>
+    <li><a class="dropdown-item" href="#">Fresh Bananas</a></li>
+
+
+
+
+
+
+
+  </ul>
+</div>
+      
+</div>
+
+<!--main  -->
+<div></div>
+
+<!-- card -->
+ <div></div>
+
+
+
+</div>
+</body>
+</html>

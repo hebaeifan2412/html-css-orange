@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animation</title>
+  <style>
+    /* Define the animation */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px); /* Move 20px down initially */
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0); /* Reset to original position */
+      }
+    }
+
+    /* Apply animation to the element */
+    .animated-title {
+      font-family: Arial, sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      color: #db4f54;
+
+      /* Animation properties */
+      opacity: 0; /* Start invisible */
+      animation: fadeInUp 1s ease-in-out forwards; /* Apply animation */
+      animation-delay: 0.3s; /* Add a delay before animation starts */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="animated-title">Hello, I’m Leon Edwards</h1>
+</body>
+</html>
